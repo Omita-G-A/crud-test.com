@@ -12,4 +12,20 @@ class Post {
         $this->db->query("SELECT * FROM posts");
         return $this->db->resultSet();
     }
+
+    public function addPost($data){
+
+    }
+
+    public function updatePost($data){
+
+    }
+
+    public function getPostById($id){
+
+    }
+
+    public function deletePost($id){
+        
+    }
 }
