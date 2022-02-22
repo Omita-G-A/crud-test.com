@@ -12,7 +12,7 @@ define('DB_NAME', 'test123');
 define('APPROOT', dirname(dirname(__FILE__)));
 
 // url root
-define('URLROOT', 'http://crut-test.com');
+define('URLROOT', 'http://crud-test.com');
 
 // site name
 define('SITENAME', 'Mini MVC');
