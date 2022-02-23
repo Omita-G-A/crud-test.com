@@ -1,5 +1,4 @@
 <?php require_once APPROOT . '/views/includes/header.php' ?>
-<?php require_once APPROOT . '/views/includes/navbar.php' ?>
 
 <div class="row">
       <div class="col-md-6 mx-auto">

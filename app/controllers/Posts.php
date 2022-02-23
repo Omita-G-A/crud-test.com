@@ -6,7 +6,7 @@ class Posts extends Controller
 
     public function __construct()
     {
-        echo 'Postss Controller Loaded...';
+        echo 'Posts Controller Loaded...';
         $this->postModel = $this->model('Posts');
     }
 

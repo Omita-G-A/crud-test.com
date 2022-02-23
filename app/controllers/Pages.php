@@ -2,11 +2,10 @@
 
 class Pages extends Controller {
     public function __construct(){
-        echo 'Pages controller loaded';
+        // echo 'Pages controller loaded';
     }
 
     public function index(){
-        echo 'PAGES método index';
         $data = ['title' => 'Bienvenidos'];
         $this->view('pages/index', $data);
     }
